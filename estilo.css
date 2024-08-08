@@ -12,7 +12,7 @@ body {
     width: 90em;
     height: 100vh;
     margin: 0 auto;
-
+    font-family: "Nunito Sans", sans-serif;
     background: #141518;
 
 }
@@ -36,10 +36,11 @@ header {
 }
 
 .header_content input {
+    padding: 10px;
     border-radius: 15px;
     border: none;
     outline: none;
-    text-align: center;
+    text-align: left;
 }
 
 .header_content img {
@@ -68,16 +69,39 @@ header {
 }
 
 .header_agendamentos {
-    width: 9.688em;
+    width: 11em;
     height: 2.25em;
     padding: 0.5em 1em 0.5em 1em;
-    display: flex;
-    flex-direction: row;
     gap: 0.625em;
     cursor: pointer;
-    font-family: "Nunito Sans", sans-serif;
+    background-color: #141518;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    transition: 1s;
 
 
+
+}
+
+.header_agendamentos:hover {
+    background-color: #8162FF;
+
+    border-radius: 10px;
+}
+
+.header_agendamentos a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 0.875em;
+    font-weight: 700;
+    line-height: 1.225em;
+
+
+    letter-spacing: 0.5px;
 }
 
 .header_agendamentos p {
@@ -99,20 +123,167 @@ header {
     width: 5.75em;
     height: 2.25em;
     border-radius: 10px;
-    border: 10px;
+    border: none;
     padding: 0.5em 1em 0.5em 1em;
     gap: 0.5em;
     background-color: #8162FF;
     color: white;
     display: flex;
     cursor: pointer;
-    font-family: "Nunito Sans", sans-serif;
+    display: flex;
+    flex-direction: row;
 
 
+
+}
+
+.header_perfil a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
 }
 
 .header_perfil img {
     width: 1em;
     height: 1em;
 
+}
+
+.topo {
+    width: 90em;
+    height: 28.938em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(imagens/allef-vinicius-IvQeAVeJULw-unsplash\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+
+
+.topo_content_esquerdo {
+    width: 15.9em;
+    height: 20.938em;
+    padding: 0.063em 0 0.063em 0;
+
+
+}
+
+
+
+.topo_content_direito {
+    width: 43.85em;
+    height: 22em;
+    gap: 1.25em;
+
+
+
+
+}
+
+.topo_content_esquerdo p {
+
+    line-height: 50px;
+    color: white;
+}
+
+.topo_content_esquerdo a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.topo_content_esquerdo button {
+    background-color: #8162FF;
+
+    width: 100px;
+    padding: 1px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.topo_content_esquerdo button:hover {
+    border: solid 1px white;
+
+}
+
+
+.topo_content_direito p {
+    color: #838896;
+
+    margin-bottom: 1.25em;
+
+}
+
+.topo_content_recomendados {
+    display: flex;
+    flex-direction: row;
+    height: 18.438em;
+    gap: 1.25em;
+}
+
+.child {
+    width: 13.8em;
+    height: 19em;
+
+    border-radius: 16px;
+    background-color: #1A1B1F;
+
+}
+
+.child_img {
+    width: 13.813em;
+    height: 10.188em;
+    padding: 0.25em 0.25em 0em 0.25em;
+}
+
+.texto_recomendados {
+    width: 13.75em;
+    height: 8.25em;
+    padding: 0.75em;
+
+}
+
+.texto_recomendados p {
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+
+}
+
+.child span {
+    color: #838896;
+    font-size: 0.75em;
+    font-weight: 400;
+
+
+}
+
+.child_btn {
+    border: none;
+    font-weight: 700;
+    font-size: 0.875em;
+    line-height: 1.225em;
+    width: 12.3em;
+    height: 2.25em;
+    padding: 0.5em 1em 0.5em 1em;
+    background-color: #26272B;
+    border-radius: 10px;
+    color: white;
+    margin-left: 0.625em;
+    margin-top: 0.625em;
+    margin-bottom: 0.625em;
+    transition: 1s;
+
+}
+
+.child_btn:hover {
+    background-color: #8162FF;
+    cursor: pointer;
 }
