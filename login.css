@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Nunito Sans", sans-serif;
+    gap: 20px;
+    color: white;
+    background: #141518;
+    background-image: url(imagens/allef-vinicius-IvQeAVeJULw-unsplash\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+#login {
+    width: 20%;
+
+
+    border: solid #8162FF 2px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+
+
+
+}
+
+#login_novo {
+    width: 20%;
+    border: solid #8162FF 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+}
+
+
+
+
+
+
+
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+#login h1 {
+    margin: 10px;
+}
+
+.texto {
+
+    margin: 10px;
+}
+
+.texto h2,
+.texto p {
+    margin-bottom: 16px;
+
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+
+    box-sizing: border-box;
+    padding: 16px;
+    margin: 10px 0 0 0;
+
+}
+
+hr {
+    border: #8162FF solid 1px;
+}
+
+label,
+input,
+a {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+label,
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+}
+
+.Politicas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    font-size: 15px;
+    text-align: left;
+    padding: 0;
+
+}
+
+.Politicas a {
+    display: inline-block;
+
+}
+
+a {
+    color: rgb(52, 52, 241);
+    margin: 10px;
+}
+
+input[type="email"],
+input[type="password"] {
+
+    padding: 10px;
+    outline: none;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    border-bottom: 1px solid #8162FF;
+    color: white;
+    font-size: 15px;
+}
+
+
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #141518;
+    color: white;
+    border: 0.5px solid#8162FF;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn:hover {
+    background-color: #8162FF;
+    transition: 1s;
+    border: solid 0.5px white;
+}
+
+/***
+
+form {
+
+    padding: 20px;
+    width: 90%;
+}
+
+legend {
+    font-size: 30px;
+    text-align: center;
+    margin: 15px;
+}
+
+fieldset {
+    border: none;
+
+}
+
+hr {
+    color: #8162FF;
+    border: solid 1px #8162FF;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 20px;
+
+}
+
+p {
+    font-size: 15px;
+
+
+}
+
+label {
+    margin: 20px;
+    display: block;
+    cursor: pointer;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+    border-bottom: 1px solid #8162FF;
+    color: white;
+    font-size: 15px;
+}
+
+a[href="#"] {
+    color: rgba(74, 74, 240, 0.986);
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #141518;
+    color: white;
+    border: 0.5px solid#8162FF;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn:hover {
+    background-color: #8162FF;
+    transition: 1s;
+    border: solid 0.5px white;
+}
+    ***/
